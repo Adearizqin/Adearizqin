@@ -1,0 +1,28 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Local Obsidian state and trash
+.obsidian/
+.trash/
+
+# Private vault content: keep real notes outside this public starter repo
+00-Inbox/
+01-Dashboard/
+02-Projects/
+03-Areas/
+04-Resources/
+05-Logs/
+99-Archive/
+
+# Local databases, caches, and exports
+.DS_Store
+Thumbs.db
+*.sqlite
+*.db
+*.log
